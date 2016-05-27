@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib-test">
+    <CLASSES>
+      <root url="file://D:/dev/play1/framework/lib-test" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/dev/play1/framework/lib-test" />
+    </SOURCES>
+    <jarDirectory url="file://D:/dev/play1/framework/lib-test" recursive="false" />
+    <jarDirectory url="file://D:/dev/play1/framework/lib-test" recursive="false" type="SOURCES" />
+  </library>
+</component>

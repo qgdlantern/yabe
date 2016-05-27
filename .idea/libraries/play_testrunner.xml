@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="play-testrunner">
+    <CLASSES>
+      <root url="jar://D:/dev/play1/modules/testrunner/lib/play-testrunner.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
