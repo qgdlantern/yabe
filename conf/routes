@@ -5,6 +5,12 @@
 # Home page
 GET     /                                       Application.index
 
+# Detail page
+GET     /posts/{id}                             Application.show
+
+# Captcha page
+GET     /captcha                                Application.captcha
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 

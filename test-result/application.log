@@ -1,5 +1,7 @@
-31 浜旀湀 2016 13:58:19,452 INFO  ~ Starting F:\workspace\IdeaProjects\myplay\yabe
-31 浜旀湀 2016 13:58:20,105 WARN  ~ You're running Play! in DEV mode
-31 浜旀湀 2016 13:58:20,173 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
-31 浜旀湀 2016 13:58:27,095 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0 for default
-31 浜旀湀 2016 13:58:27,784 INFO  ~ Application 'yabe' is now started !
+03 六月 2016 16:09:38,562 INFO  ~ Starting F:\workspace\IdeaProjects\myplay\yabe\.
+03 六月 2016 16:09:39,499 WARN  ~ You're running Play! in DEV mode
+03 六月 2016 16:09:39,627 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+03 六月 2016 16:11:03,624 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0 for default
+03 六月 2016 16:11:04,259 INFO  ~ Application 'yabe' is now started !
+03 六月 2016 16:11:09,972 WARN  ~ [DEPRECATION] Encountered positional parameter near line 1, column 35.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+03 六月 2016 16:11:09,982 WARN  ~ [DEPRECATION] Encountered positional parameter near line 1, column 35.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
