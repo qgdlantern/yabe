@@ -1,6 +1,8 @@
 package models;
 
 import org.hibernate.annotations.ManyToAny;
+import play.data.validation.MaxSize;
+import play.data.validation.Required;
 import play.db.jpa.Model;
 
 import javax.persistence.Entity;
@@ -14,12 +16,18 @@ import java.util.Date;
 @Entity
 public class Comment extends Model {
 
+    @Required
     public String author;
+
+    @Required
     public Date postedAt;
 
     @Lob
+    @Required
+    @MaxSize(1000)
     public String content;
 
+    @Required
     @ManyToOne
     public Post post;
 

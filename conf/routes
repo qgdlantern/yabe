@@ -6,7 +6,7 @@
 GET     /                                       Application.index
 
 # Detail page
-GET     /posts/{<[0-9]+>id}                             Application.show
+GET     /posts/{<[0-9]+>id}                     Application.show
 GET     /posts/{tag}                            Application.listTagged
 
 # Captcha page
@@ -14,6 +14,16 @@ GET     /captcha                                Application.captcha
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
+
+# Import CRUD routes
+GET     /admin/?                                Admin.index
+GET     /admin/myPosts/{id}                     Admin.form
+GET     /admin/new                              Admin.form
+POST    /admin/new                              Admin.save
+*       /admin                                  module:crud
+
+# Import Secure routes
+*       /                                       module:secure
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public

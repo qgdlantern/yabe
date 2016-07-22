@@ -274,6 +274,10 @@ form .error {
     -webkit-box-shadow: 0 2px 0 #800;
 }
 
+form .error:empty {
+    display: none;
+}
+
 form p {
     margin: 5px 0 0 0;
 }
@@ -445,9 +449,9 @@ tr.odd {
     font-size: 80%;
 }
 
-.crudButtons input {
+/*.crudButtons input {
     font-size: 110%;
-}
+}*/
 
 .crudButtons {
     margin-top: 20px;
